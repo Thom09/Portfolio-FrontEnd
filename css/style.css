@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------- LOGO Y LOGIN ---------------------------- */
+
+.contenedor .logo-login {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #fcb315;
+}
+
+.contenedor .logo-login .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor .logo-login .logo img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.contenedor .logo-login .logo p {
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor .logo-login .login {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor .logo-login .login .redes a {
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #312b2b;
+}
+
+.contenedor .logo-login .login .redes a:hover {
+    color: #636363;
+    transition: all 0.5s;
+}
+
+.contenedor .logo-login .login .btn {
+    margin-left: 30px;
+    background-color: #312b2b;
+    border: none;
+}
+
+.contenedor .logo-login .login .btn:hover {
+    background-color: #1b7e12;
+    transition: all 0.5s;
+}
