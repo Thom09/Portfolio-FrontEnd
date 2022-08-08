@@ -58,8 +58,6 @@
     border: none;
 }
 
-/* */
-
 .contenedor .logo-login .login .btn:hover {
     background-color: #1b7e12;
     transition: all 0.5s;
