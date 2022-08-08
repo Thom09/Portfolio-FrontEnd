@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
-    background-color: rgb(223, 189, 0);
+    background-color: #fcb315;
 }
 
 .contenedor .logo-login .logo {
@@ -44,19 +44,21 @@
     font-size: 30px;
     margin-left: 10px;
     text-decoration: none;
-    color: #004caf;
+    color: #312b2b;
 }
 
 .contenedor .logo-login .login .redes a:hover {
-    color: #8c8c8c;
+    color: #636363;
     transition: all 0.5s;
 }
 
 .contenedor .logo-login .login .btn {
     margin-left: 30px;
+    background-color: #312b2b;
+    border: none;
 }
 
 .contenedor .logo-login .login .btn:hover {
-    color: #004caf;
+    background-color: #1b7e12;
     transition: all 0.5s;
 }
