@@ -63,9 +63,45 @@
     transition: all 0.5s;
 }
 
+/* ---------------------------- BANNER ---------------------------- */
+
 .contenedor .banner {
     height: 450px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-header.jpg);
     background-size: cover;
+}
+
+/* ---------------------------- ACERCA DE ---------------------------- */
+
+.contenedor .acerca {
+    display: flex;
+}
+
+.contenedor .acerca .perfil {
+    height: 150px;
+    width: 300px;
+}
+
+.contenedor .acerca .perfil img {
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    margin-left: 50px;
+    border: 10px solid #535353;
+    border-radius: 100%;
+}
+
+.contenedor .acerca .perfil .nombre-titulo {
+    font-size: 15px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+
+.contenedor .acerca .info {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #312b2b;
 }
