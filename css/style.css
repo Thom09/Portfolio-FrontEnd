@@ -89,26 +89,26 @@
 .contenedor .acerca .perfil {
     height: 150px;
     width: 300px;
+    text-align: center;
 }
 
 .contenedor .acerca .perfil img {
     height: 150px;
     width: 150px;
     margin-top: -75px;
-    margin-left: 50px;
+    margin-left: -20px;
     border: 10px solid #535353;
     border-radius: 100%;
 }
 
 .contenedor .acerca .perfil .nombre-titulo {
     font-size: 15px;
-    text-align: center;
-    margin-left: -50px;
+    margin-left: -25px;
     margin-top: 30px;
 }
 
 
-.contenedor .acerca .info {
+.contenedor .acerca .sobre-mi {
     height: 133px;
     width: 800px;
     margin-right: 50px;
@@ -116,7 +116,7 @@
     text-align: center;
 }
 
-.contenedor .acerca .info h3 {
+.contenedor .acerca .sobre-mi h3 {
     font-size: 17px;
     width: 90px;
     margin: auto;
@@ -124,8 +124,47 @@
     border-bottom: 5px solid #414eda;
 }
 
-.contenedor .acerca .info p {
+.contenedor .acerca .sobre-mi p {
     text-align: center;
     font-size: 13px;
     margin-top: 18px;
+}
+
+.contenedor .separador {
+    border: 5px solid #414eda;
+}
+
+/* ---------------------------- INFO ---------------------------- */
+
+.contenedor .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contenedor .info .tarjeta-info {
+    margin: 0px 50px;
+    width: 500px;
+}
+
+.contenedor .info .tarjeta-info .text1 {
+    margin: 50px 0px 30px 70px;
+    text-align: center;
+    width: 350px;
+    border-bottom: 5px solid #414eda;
+}
+
+.contenedor .info .tarjeta-info .text2 {
+    margin: 50px 0px 30px 150px;
+    text-align: center;
+    width: 200px;
+    border-bottom: 5px solid #414eda;
+}
+
+.contenedor .info .tarjeta-info .card-title {
+    font-size: 25px;
+}
+
+.contenedor .info .tarjeta-info .card-text {
+    font-size: 13px;
 }
